@@ -2,9 +2,7 @@ import React, { Fragment } from "react";
 import Card from "./Card";
 
 const CardList = ({ robots }) => {
-
     return (
-
         robots.map(
             (usersRobots, i) => {
                 return (
